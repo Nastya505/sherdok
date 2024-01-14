@@ -1,0 +1,30 @@
+.navigation{
+    display: flex;
+    gap:calc(var(--offset-base-size) * 10);
+    align-items: center;
+    justify-content: flex-end;
+}
+.link{
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: var(--fw-medium);
+}
+
+.link:hover{
+    color: var(--accent-color);
+}
+
+.iconMenu{
+    display: none;
+}
+
+@media (max-width: 780px) {
+    .iconMenu{
+        display: block;
+        font-size: 28px;
+        color: var(--details-color);
+    }
+    .navigation{
+        display: none;
+    }
+}

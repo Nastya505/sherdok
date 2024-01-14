@@ -1,0 +1,33 @@
+.button{
+    max-width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--accent-color);
+    color: #fff;
+    padding: calc(var(--offset-base-size) * 7) calc(var(--offset-base-size) * 25);
+    font-weight: var(--fw-semibold);
+    border-radius: 50px;
+    border: 1px solid var(--accent-color);
+    text-decoration: none;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.button:hover{
+    border: 1px solid var(--accent-color);
+    background-color: #fff;
+    color: var(--accent-color);
+}
+
+@media (max-width: 450px) {
+    .button{
+        padding: calc(var(--offset-base-size) * 5) calc(var(--offset-base-size) * 15);
+    }
+}
+
+@media (max-width: 352px) {
+    .button{
+        padding: calc(var(--offset-base-size) * 5) calc(var(--offset-base-size) * 10);
+    }
+}
