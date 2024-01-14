@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/sherdok/static/css/main.bfa1a347.css",
+    "main.css": "/sherdok/static/css/main.feca9440.css",
     "main.js": "/sherdok/static/js/main.b978f1fc.js",
     "static/js/787.bf4c1403.chunk.js": "/sherdok/static/js/787.bf4c1403.chunk.js",
     "static/media/hero.svg": "/sherdok/static/media/hero.0891381431f44fb19bcdbd27bf43bb8c.svg",
     "static/media/logo.svg": "/sherdok/static/media/logo.765562821899e409bcebd87323e42570.svg",
     "index.html": "/sherdok/index.html",
-    "main.bfa1a347.css.map": "/sherdok/static/css/main.bfa1a347.css.map",
+    "main.feca9440.css.map": "/sherdok/static/css/main.feca9440.css.map",
     "main.b978f1fc.js.map": "/sherdok/static/js/main.b978f1fc.js.map",
     "787.bf4c1403.chunk.js.map": "/sherdok/static/js/787.bf4c1403.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bfa1a347.css",
+    "static/css/main.feca9440.css",
     "static/js/main.b978f1fc.js"
   ]
 }
